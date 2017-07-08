@@ -1,0 +1,31 @@
+Ask SitecoreGuild v0.1
+======================
+
+This version of Ask SitecoreGuild provides:
+
+- A Google Chrome Extension to ask questions
+- A ASP.NET MVC Application with a controller to answer static questions in a switch statement.
+
+Here is how to set it up:
+
+- Open Visual Studio 2017 by right clicking and running as Administrator.
+- Right click on the QuestionService and choose Properties.
+- Click on Web on the left hand side.
+- Where it says project url set it to: http://localhost/AskSitecoreGuild/Questions/Ask
+- Click on Create Virtual Directory
+- Click on Save icon at the top.
+- Click on Debug and Start Debugging.
+
+- Open the Google Chrome browser and on a new tab paste chrome://extensions/
+- In the Top Right Corner ensure Developer Mode is selected.
+- Click on Load Unpacked Extension.
+- Navigate to the AskSitecoreGuild folder underneath Sprint1\ChromePlugIns
+- Click on OK.
+- You will now see an M icon in the top right corner of Chrome. That is your plug-in.
+- In the Question box type in: What is Sitecore
+- Click Ask Question.  It will say it is Finding Answer...
+- Then it will respond with an answer.
+
+
+
+

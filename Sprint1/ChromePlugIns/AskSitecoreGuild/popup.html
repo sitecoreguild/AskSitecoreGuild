@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            min-width: 420px;
+            overflow-x: hidden;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        input, textarea {
+            width: 420px;
+        }
+
+            input#save {
+                font-weight: bold;
+                width: auto;
+            }
+    </style>
+    <script src="popup.js"></script>
+</head>
+<body>
+    <h1>Ask SitecoreGuild</h1>
+
+    <form id="askQuestion">
+
+        <p><b>You are part of an exclusive group that got early access. Searches affect the results returned so sharing with others will affect your personal journey.</b></p>
+        <p>This is your unique membership id: </p>
+        <p id="vipId">56C2C0A8-34A4-495A-917E-C42B46694CF5</p>
+
+        <p>Enter a simple question and click Ask</p>
+        <p>
+            <label for="question">Question</label><br />
+            <input type="text" id="question" name="question" size="255" value="" />
+        </p>
+        <p>
+            <input id="save" type="submit" value="Ask Question" />
+            <span id="status-display"></span>
+        </p>
+    </form>
+</body>
+</html>
+
